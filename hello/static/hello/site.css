@@ -4,29 +4,36 @@
 }
 
 .navbar {
-    background-color: lightgray;
+    /* background-color: lightgray; */
     font-size: 1em;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-    padding: 8px 5px 8px 5px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    color: black;
+    /* padding: 8px 5px 8px 5px; */
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding-top: 20px;
+    background-color: black;
+    z-index: 1;
+    left: 0;
 }
 
 .navbar a {
+    padding: 6px 6px 6px 32px;
     text-decoration: none;
-    color: inherit;
-}
-
-.navbar-brand {
-    font-size: 1.2em;
-    font-weight: 600;
-}
-
-.navbar-item {
-    font-variant: small-caps;
-    margin-left: 30px;
-}
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .navbar a:hover {
+    color: #f1f1f1;
+  }
 
 .body-content {
+    margin-left: 200px;
     padding: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
